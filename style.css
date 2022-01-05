@@ -1,0 +1,229 @@
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+/*----------------------
+font-family: 'Berkshire Swash',cursive;
+font-family: 'Kaushan Script',cursive;
+font-family: 'Open Sans',sans-serif;
+font-family: 'Roboto',sans-serif;
+
+color : #2D2424
+        #6F4C5B 
+        #9E7777 
+        #DEBA9D
+        #f8f0f0
+
+----------------------------------*/
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+        font-family: 'Roboto', sans-serif;
+}
+
+.section-size {
+        padding: 90px 0;
+}
+
+/*-------------------------Grid part-------------------------------*/
+
+.container {
+        width: 1300px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
+
+.container-full {
+        width: 100%;
+        margin: 0 auto;
+}
+
+.container::before,
+.container::after,
+.container-full::before,
+.container-full::after {
+        content: "";
+        display: table;
+        clear: both;
+}
+
+.col-25 {
+        width: 25%;
+        float: left;
+        padding: 0 25px;
+}
+
+.col-30 {
+        width: 30%;
+        float: left;
+        padding: 0 25px;
+}
+
+.col-33 {
+        width: 33.3%;
+        float: left;
+        padding: 0 25px;
+}
+
+.col-50 {
+        width: 50%;
+        float: left;
+        padding: 0 25px;
+}
+
+.col-70 {
+        width: 70%;
+        float: left;
+        padding: 0 25px;
+}
+
+.col-100 {
+        width: 100%;
+        float: left;
+        padding: 0 25px;
+}
+
+/*---------------------head part----------------------------*/
+
+header{
+        background: #f8f0f0;
+        padding-top: 10%;
+}
+
+header .head h1{
+        margin: 15% 0 5%;
+        font-size: 60px;
+        font-family: 'Berkshire Swash',cursive;
+        font-weight: 500;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        padding-left: 20px;
+        border-left: 5px solid #DEBA9D;
+        text-transform: capitalize;
+}
+
+header .head h1 span{
+        color: #9E7777;
+}
+
+header .head p{
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        text-align: justify;
+        margin-right: 20px;
+}
+
+.btn a{
+        display: inline-block;
+        margin-top: 30px;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 8px 25px;
+        border: 2px solid #2D2424;
+        color: #2D2424;
+        transition: 0.5s;
+        border-radius: 5px;
+}
+
+.btn a:hover{
+        background-color: #2D2424;
+        color: #f8f0f0;
+}
+
+header img{
+        height: 100%;
+        width: 100%;
+}
+
+
+
+/* --------------------------------goals--------------------- */
+
+
+
+.goals h1{
+        color: #2D2424;
+        margin: 60px 0 90px;
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+       font-family: 'Open Sans',sans-serif;
+       font-weight: 600;
+}
+
+.goals span{
+        color: #DEBA9D;
+}
+
+.goals .card{
+        padding: 20px 30px;
+        border-radius: 5%;
+        transition: 0.3s;
+         box-shadow : 0 0 16px rgba(0, 0, 0, 0.459);
+}
+
+.goals .card:hover{
+        transform: translateY(-10px);
+         box-shadow : 8px 24px 16px rgba(0, 0, 0, 0.459);
+}
+
+.goals .card-1{
+        background-color: #f8f0f0;
+}
+.goals .card-3 {
+        background-color: #f6cfcf;
+}
+.goals .card-2 {
+        background-color: #ffeaea;
+}
+
+.goals .card img{
+        height: 75%;
+        width: 75%;
+}
+
+.goals .card h2{
+        text-transform: uppercase;
+        font-size: 22px;
+        margin: 15px 0 20px;
+        color: #2D2424;
+}
+
+.goals .card p{
+        font-size: 16px;
+        margin-bottom: 60px;
+        line-height: 25px;
+}
+
+
+.develop{
+        margin-top: 50px;
+}
+
+
+.develop img{
+        height: 70%;
+        width: 80%;
+        border-radius: 10%;
+        margin-left: 30px;
+}
+
+.develop h1{
+        color: #2D2424;
+        font-size: 30px;
+        letter-spacing: 1px;
+        line-height: 1.5;
+        margin-top: 20%;
+}
+
+.develop p{
+        margin-top: 20px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        margin-right: 20px;
+}
