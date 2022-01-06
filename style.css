@@ -88,15 +88,15 @@ body {
 
 /*---------------------head part----------------------------*/
 
-header{
+header {
         background: #f8f0f0;
         padding-top: 10%;
 }
 
-header .head h1{
+header .head h1 {
         margin: 15% 0 5%;
         font-size: 60px;
-        font-family: 'Berkshire Swash',cursive;
+        font-family: 'Berkshire Swash', cursive;
         font-weight: 500;
         letter-spacing: 1px;
         word-spacing: 4px;
@@ -105,11 +105,11 @@ header .head h1{
         text-transform: capitalize;
 }
 
-header .head h1 span{
+header .head h1 span {
         color: #9E7777;
 }
 
-header .head p{
+header .head p {
         font-size: 18px;
         letter-spacing: 1px;
         line-height: 30px;
@@ -117,7 +117,9 @@ header .head p{
         margin-right: 20px;
 }
 
-.btn a{
+.btn a {
+        letter-spacing: 1px;
+        text-transform: capitalize;
         display: inline-block;
         margin-top: 30px;
         text-decoration: none;
@@ -129,12 +131,13 @@ header .head p{
         border-radius: 5px;
 }
 
-.btn a:hover{
-        background-color: #2D2424;
-        color: #f8f0f0;
+
+.develop-btn a:hover {
+        background: #DEBA9D;
+        color: #2D2424;
 }
 
-header img{
+header img {
         height: 100%;
         width: 100%;
 }
@@ -145,74 +148,80 @@ header img{
 
 
 
-.goals h1{
+.goals h1 {
         color: #2D2424;
         margin: 60px 0 90px;
         font-size: 40px;
         text-align: center;
         text-transform: uppercase;
-       font-family: 'Open Sans',sans-serif;
-       font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
 }
 
-.goals span{
+.goals span {
         color: #DEBA9D;
 }
 
-.goals .card{
+.goals .card {
         padding: 20px 30px;
         border-radius: 5%;
         transition: 0.3s;
-         box-shadow : 0 0 16px rgba(0, 0, 0, 0.459);
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.459);
 }
 
-.goals .card:hover{
+.goals .card:hover {
         transform: translateY(-10px);
-         box-shadow : 8px 24px 16px rgba(0, 0, 0, 0.459);
+        box-shadow: 8px 24px 16px rgba(0, 0, 0, 0.459);
 }
 
-.goals .card-1{
+.goals .card-1 {
         background-color: #f8f0f0;
 }
+
 .goals .card-3 {
         background-color: #f6cfcf;
 }
+
 .goals .card-2 {
         background-color: #ffeaea;
 }
 
-.goals .card img{
+.goals .card img {
         height: 75%;
         width: 75%;
 }
 
-.goals .card h2{
+.goals .card h2 {
         text-transform: uppercase;
         font-size: 22px;
         margin: 15px 0 20px;
         color: #2D2424;
 }
 
-.goals .card p{
+.goals .card p {
         font-size: 16px;
         margin-bottom: 60px;
         line-height: 25px;
 }
 
+/* --------------------------------Develop--------------------- */
 
-.develop{
+
+.develop {
         margin-top: 50px;
+        background-color: #f8f0f0;
 }
 
 
-.develop img{
+.develop img {
         height: 70%;
         width: 80%;
         border-radius: 10%;
         margin-left: 30px;
 }
 
-.develop h1{
+.develop h1 {
+        text-transform: capitalize;
         color: #2D2424;
         font-size: 30px;
         letter-spacing: 1px;
@@ -220,10 +229,141 @@ header img{
         margin-top: 20%;
 }
 
-.develop p{
+.develop p {
         margin-top: 20px;
         font-size: 18px;
         letter-spacing: 1px;
         line-height: 30px;
         margin-right: 20px;
+}
+
+.btn a:hover {
+        background-color: #2D2424;
+        color: #f8f0f0;
+}
+
+.develop-btn a {
+        background: #2D2424;
+        color: #ffeaea;
+        transition: 0.4s;
+}
+
+/* --------------------------------blog--------------------- */
+
+.blog .blog-head h1 {
+        color: #2D2424;
+        font-size: 40px;
+        margin-bottom: 15px;
+        padding-left: 8px;
+        border-left: 3px solid #9E7777;
+}
+
+.blog .blogs {
+        margin: 90px 0;
+}
+
+.blog .blogs .blog-card {
+        background: #ffffff;
+        transition: 0.3s;
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.459);
+        padding-bottom: 20px;
+}
+
+.blog .blogs .blog-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 8px 30px 16px rgba(0, 0, 0, 0.459);
+}
+
+.blog .blogs .blog-card img {
+        height: 100%;
+        width: 100%;
+}
+
+.blog-card .b-card {
+        padding: 10px;
+        height: 300px;
+}
+
+.blog-card h2 {
+        letter-spacing: 1px;
+        line-height: 26px;
+        font-size: 21px;
+        line-height: 25px;
+        color: #2D2424;
+        transition: 0.3s;
+        margin: 15px 0 10px;
+        text-transform: uppercase;
+}
+
+.blog-card h2:hover {
+        color: #DEBA9D;
+}
+
+.blog-card .date {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #444444;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 15px;
+}
+
+.blog-card hr {
+        background-color: #2D2424;
+        height: 3px;
+        width: 65px;
+        margin-bottom: 15px;
+}
+
+.blog-card p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 10px;
+        text-align: justify;
+        margin-bottom: 15px;
+}
+
+.blog-card a {
+        color: #2D2424;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        transition: 0.4s;
+
+}
+
+.blog-card a:hover {
+        color: #9E7777;
+
+}
+
+/* --------------------------------footer--------------------- */
+
+
+footer {
+        text-align: center;
+        padding: 60px;
+        background: #2D2424;
+}
+
+footer h2 {
+        color: #9E7777;
+        font-size: 30px;
+        font-weight: 400;
+        font-family: 'Berkshire Swash', cursive;
+        margin-bottom: 10px;
+}
+
+footer h2 span {
+        color: #f6cfcf;
+        font-size: 35px;
+        letter-spacing: 1px;
+        font-weight: 300;
+}
+
+footer p {
+        font-size: 16px;
+        letter-spacing: 1px;
+        color: rgba(128, 126, 126, 0.5);
 }
