@@ -132,9 +132,9 @@ header .head p {
 }
 
 
-.develop-btn a:hover {
-        background: #DEBA9D;
-        color: #2D2424;
+.btn a:hover {
+        background-color: #2D2424;
+        color: #f8f0f0;
 }
 
 header img {
@@ -237,16 +237,17 @@ header img {
         margin-right: 20px;
 }
 
-.btn a:hover {
-        background-color: #2D2424;
-        color: #f8f0f0;
-}
-
 .develop-btn a {
         background: #2D2424;
         color: #ffeaea;
         transition: 0.4s;
 }
+
+.develop-btn a:hover {
+        background: #DEBA9D;
+        color: #2D2424;
+}
+
 
 /* --------------------------------blog--------------------- */
 
